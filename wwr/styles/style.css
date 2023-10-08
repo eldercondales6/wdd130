@@ -30,13 +30,67 @@ Fonts are separated by a & */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
+#background {
+  height: 725px;
+}
+
+
 body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: #fcfbfb;
 }
+.book, .join {
+  background-color: #A42212;
+  text-decoration: none;
+}
+.book:hover, .join:hover {
+  background-color: #396E94;
+  color: #D4AC0D;
+}
+.msg h2 {
+  color: #A42212;
+}
+.msg p {
+  color: #A42212;
+}
+
+#background {
+  background-color: aqua;
+}
+.msg {
+  background-color: aquamarine;
+}
+footer {
+  background-color: white;
+  color: black;
+}
+footer a {
+  color: #396E94;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #D4AC0D;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
+footer p {
+  font-size: 1.2em;
+}
+.home-title {
+  color: aqua;
+}
+h4 {
+color: black;
+}
+.book, .join {
+  color: #396E94;
+}
+
 img {
   display: block;
   margin: 0 auto;
@@ -54,11 +108,14 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
+.icon {
+  width: 80px;
+}
 header {
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: rgba(20, 30, 13, .7);
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -102,23 +159,26 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  
 }
 nav  {
   list-style-type: none;
   display: flex;
+  
 }
 nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  color: #D4AC0D;
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  background-color: black;
 }
 .sitemap {
   display: grid;

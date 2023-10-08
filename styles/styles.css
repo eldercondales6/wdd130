@@ -1,35 +1,60 @@
 body {
-    text-align: center;
+    
 }
 nav {
     background-color: steelblue;
     padding: 10px;
+    text-align: center;
 }
 a {
     color: white;
     margin: 40px;
+    font-size: 1.5em;
 }
 h1 {
     color: steelblue;
+    text-align: center;
 }
 img {
-    width: 800px;
-    border: 4px; 
+    width: 80%;
+    border: 2px solid = blue; 
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 p {
     padding: 10px;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
 }
-footer {
+nav, footer {
     background-color: steelblue;
     color: white;
+    padding: 10px;
 }
 
-.main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+footer p {
+    font-size: 2%;
+    margin: 20px auto;
+}
+
+.main p {
+    
+    
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    border: 2px solid blue;
 }
 
 #active {
     background-color: white;
     color: steelblue;
 }
+
+a:hover {
+    background-color: yellow;
+    color: steelblue;
+}
+
