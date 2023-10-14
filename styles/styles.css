@@ -1,6 +1,4 @@
-body {
-    
-}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -37,6 +35,8 @@ nav, footer {
 footer p {
     font-size: 2%;
     margin: 20px auto;
+    background-color: steelblue;
+    color: white;
 }
 
 .main p {
