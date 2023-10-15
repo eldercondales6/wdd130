@@ -31,7 +31,7 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 #background {
-  height: 725px;
+  height: 40px;
 }
 
 
@@ -39,9 +39,10 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   background-color: #fcfbfb;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .book, .join {
   background-color: #A42212;
@@ -58,9 +59,6 @@ body {
   color: #A42212;
 }
 
-#background {
-  background-color: aqua;
-}
 .msg {
   background-color: aquamarine;
 }
@@ -82,10 +80,15 @@ footer p {
   font-size: 1.2em;
 }
 .home-title {
-  color: aqua;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  background-color: #D4AC0D;
+  
 }
 h4 {
 color: black;
+background-color: #E7C24F;
 }
 .book, .join {
   color: #396E94;
@@ -94,14 +97,20 @@ color: black;
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 400px;
+  border: solid 5px;
+
+  
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  color:black;
+  
 }
 h2 {
   text-align: center;
+  background-color: #D4AC0D;
 }
 hr {
   height: 3px;
@@ -164,21 +173,25 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+  align-content: center;
   
 }
 nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+ 
   color: #D4AC0D;
+  
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
+  
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: black;
+  
 }
 .sitemap {
   display: grid;
